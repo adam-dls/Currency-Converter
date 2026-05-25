@@ -38,7 +38,7 @@ python-dotenv :  to manage the security (useless bc it's a public API but I want
 4.  **Configure Environment Variables** :
     Create a file .env in the project folder and write down your API key (if it's necessary, with the frankfurter it's not required) and the API URL:
 
-    API_Key=votre_cle_api_ici
+    API_Key=votre_cle_api_ici   
     BASE_URL=https://api.frankfurter.dev/v2/rates
     
     *(The API used in this project is public, but its structure could work even if it were a secure API.).*
