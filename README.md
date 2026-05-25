@@ -1,6 +1,6 @@
 # Currency-Converter
 
-This project aims to convert an amount from one currency into another currency, it's my first python project so I hope it won't be too bad...
+This project aims to convert an amount from one currency into another currency in real time by using rates from an API.
 
 ## About The Project
 
