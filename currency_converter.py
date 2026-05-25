@@ -39,7 +39,7 @@ def currency_converter_main():
 
         if st.form_submit_button(label='submit'):
             if currency_from == currency_to:
-                st.write(f"{amount} {currency_from} is {amount} {currency_to}")
+                st.write(f"{amount} {currency_from} equals {amount} {currency_to}")
 
             else:
                 # Get the info from the API
@@ -59,7 +59,7 @@ def currency_converter_main():
                     convert = None
                     st.error(body="Divided by zero")
                 
-                st.write(f"{amount} {currency_from} is {convert} {currency_to}")
+                st.write(f"{amount} {currency_from} equals {convert} {currency_to}")
     
     return 
 
